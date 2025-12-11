@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Klug Shine</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website for Klug Shine. Providing a seamless full-page embedded experience.">
+    <meta name="keywords" content="Klug Shine, Klug, Shine, netlify, website, embed, official">
+    <meta name="author" content="Klug Shine Team">
+    <link rel="canonical" href="https://klug-shine.netlify.app/">
+
+    <meta property="og:title" content="Klug Shine">
+    <meta property="og:description" content="Official website for Klug Shine. Providing a seamless full-page embedded experience.">
+    <meta property="og:url" content="https://klug-shine.netlify.app/">
+    <meta property="og:type" content="website">
+
+    <style>
+        /* Reset margins and paddings for full-page coverage */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Prevents scrollbars on the main page */
+        }
+        /* Style the iframe to cover the entire page */
+        #full-page-embed {
+            width: 100%;
+            height: 100%;
+            border: none; /* Removes the default iframe border */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <iframe id="full-page-embed" src="https://klug-shine.netlify.app/" title="Klug Shine Embedded Website" allowfullscreen></iframe>
+</body>
+</html>
